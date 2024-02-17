@@ -716,7 +716,6 @@ header {
   }
   .otherteam {
     max-width: 300px;
-    min-width: 265px;
   }
   .ourteam__list {
     flex-direction: column;
@@ -771,5 +770,13 @@ header {
   }
   .ourgoal_cointainer {
     padding: 0rem 0.75rem;
+  }
+}
+@media (width < 312px) {
+  .ourteam__name {
+    font-size: 1.3rem;
+  }
+  .ourteam__post {
+    font-size: 0.9rem;
   }
 }
